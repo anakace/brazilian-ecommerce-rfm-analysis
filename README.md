@@ -23,11 +23,12 @@ The project uses the orders, customers, and order payments tables. Only **delive
 
 ## Methodology
 
-1. **Prepare data:** inspect tables, check missing values and duplicates, and select delivered orders.
-2. **Calculate Recency:** days since each customer's last purchase, relative to the latest purchase date in the filtered dataset. Score with five quantile-based groups, where 5 is most recent.
-3. **Calculate Frequency:** number of distinct purchases per customer. Use fixed score bands (`pd.cut`), since most customers made only one purchase and quantile-based grouping is unsuitable.
-4. **Calculate Monetary:** sum `payment_value` for each customer across delivered orders. Assign five quantile-based scores.
-5. **Segment customers:** combine `R_code`, `F_code`, and `M_code` and classify customers into seven rule-based segments.
+1. **Prepare data:** Inspect tables, check missing values and duplicates, and select delivered orders.
+2. **Calculate Recency:** Days since each customer's last purchase, relative to the latest purchase date in the filtered dataset. Score with five quantile-based groups, where 5 is most recent.
+3. **Calculate Frequency:** Number of distinct purchases per customer. Use fixed score bands (`pd.cut`), since most customers made only one purchase and quantile-based grouping is unsuitable.
+4. **Calculate Monetary:** Sum `payment_value` for each customer across delivered orders. Assign five quantile-based scores.
+5. **Calculate RFM:** Merge Recency, Frequency, and Monetary metrics into a single DataFrame using `customer_unique_id`. Combine `R_code`, `F_code`, and `M_code` to create an individual `RFM_code` for each customer.
+6. **Segment customers:** Apply rule-based classification criteria to assign customers to seven segments based on their RFM scores.
 
 ## Customer Segments
 
