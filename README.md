@@ -79,6 +79,7 @@ The notebook includes five visualisations:
 
 1. Open `brazilian_ecommerce_rfm.ipynb` in Google Colab.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anakace/brazilian-ecommerce-rfm-analysis/blob/main/brazilian_ecommerce_rfm.ipynb)
+**Note:** Interactive Plotly charts may not render in GitHub's notebook preview. To view and interact with all visualisations, open the notebook in Google Colab and run all cells.
 2. Run the notebook from the first cell. It downloads the Olist dataset via KaggleHub.
 
 ## Limitations
