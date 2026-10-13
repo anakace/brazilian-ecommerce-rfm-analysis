@@ -47,7 +47,7 @@ These labels are descriptive groups based on the chosen thresholds, not predicti
 The final analysis covers **93,357 customers** with the required RFM information.
 
 - **Repeat purchasing was uncommon.** Most customers placed only one order during the period analysed, helping explain the small loyal-customer segments.
-- **Recent Buyers with Potential:** 29,993 customers (about 32% of the customer base) represented **38.8%** of total payment value. About **96.4%** of customers in this segment purchased only once, suggesting an opportunity to investigate ways to encourage repeat purchases.
+- **Recent Buyers with Potential:** 29,993 customers (about 32% of the customer base) represented **38.8%** of the total payment value. Approximately **96.4%** of customers in this segment purchased only once. However, their relatively recent purchasing activity suggests an opportunity to engage them while their relationship with the business is still recent.
 - **Lost Customers:** 36,308 customers (about 39% of the customer base) represented **38.1%** of historical payment value. Their average recency was approximately **394 days** relative to the dataset reference date.
 - **Small loyal customer base:** the Champions and Loyal Customers segments included only **14** and **145** customers, respectively.
 
