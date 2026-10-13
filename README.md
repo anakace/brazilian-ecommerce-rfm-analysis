@@ -67,10 +67,10 @@ The notebook includes five visualisations:
    ![Customer Distribution](images/figure3-average-customer-spending-by-rf.png)
    [View interactive chart](https://anakace.github.io/brazilian-ecommerce-rfm-analysis/interactive_charts/figure_3.html)
 4. Average recency by RFM segment
-   ![Customer Distribution](images/figure4-average-recency-by-rfm-segment.png
+   ![Customer Distribution](images/figure4-average-recency-by-rfm-segment.png)
    [View interactive chart](https://anakace.github.io/brazilian-ecommerce-rfm-analysis/interactive_charts/figure_4.html)
 5. Average number of purchases per customer by segment
-   ![Customer Distribution](images/figure5-average-number-of-purchases-per.png
+   ![Customer Distribution](images/figure5-average-number-of-purchases-per.png)
    [View interactive chart](https://anakace.github.io/brazilian-ecommerce-rfm-analysis/interactive_charts/figure_5.html)
 
 **[Open the analysis notebook](brazilian_ecommerce_rfm.ipynb)** to explore the methodology, figures, and conclusions.
