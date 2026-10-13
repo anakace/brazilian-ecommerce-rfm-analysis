@@ -58,10 +58,15 @@ These findings describe past behaviour; they do not establish why individual cus
 The notebook includes five visualisations:
 
 1. Customer distribution by RFM segment
+   ![Customer Distribution](images/figure1-customer-distribution.png)
 2. Total payment value by customer segment (treemap and accompanying table)
+   ![Customer Distribution](images/figure2-total-payment-value-by-customer.png)
 3. Average spending per customer by RFM segment
+   ![Customer Distribution](images/figure3-average-customer-spending-by-rf.png)
 4. Average recency by RFM segment
+   ![Customer Distribution](images/figure4-average-recency-by-rfm-segment.png
 5. Average number of purchases per customer by segment
+   ![Customer Distribution](images/figure5-average-number-of-purchases-per.png
 
 **[Open the analysis notebook](brazilian_ecommerce_rfm.ipynb)** to explore the methodology, figures, and conclusions.
 
